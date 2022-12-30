@@ -1,0 +1,16 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+google-map {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
