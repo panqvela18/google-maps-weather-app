@@ -27,6 +27,7 @@ export class AppComponent {
   constructor(private httpClient: HttpClient) {}
   
   mapClick(event: google.maps.MapMouseEvent) {
+    this.markerPositions = []
     if (event.latLng != null) {
       this.center = event.latLng.toJSON();
       this.httpClient
